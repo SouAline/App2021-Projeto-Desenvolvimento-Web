@@ -5,7 +5,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="confirmação.html">
+	<form action="confirmação.html" method="post">
 	<h3>
 		Nome: <input type="text" name="nome"> 
  	</h3>
@@ -17,22 +17,34 @@
 	
 	<h3>
 		Curso:
-		<input type="radio" name="curso"> Graduação
-		<input type="radio" name="curso"> Especialização
-		<input type="radio" name="curso"> Mestrado
-		<input type="radio" name="curso"> Doutorado
+		<input type="radio" name="curso" value="G"> Graduação
+		<input type="radio" name="curso" value="E"> Especialização
+		<input type="radio" name="curso" value="M"> Mestrado
+		<input type="radio" name="curso" value="D"> Doutorado
 	</h3>
 	<h3>
 		<select  name="região">
-			<option>Norte</option>
-			<option>Nordeste</option>
-			<option>Sul</option>
-			<option>Sudeste</option>
-			<option>Centro-oeste</option>
+			<option value="N">Norte</option>
+			<option value="No">Nordeste</option>
+			<option value="S">Sul</option>
+			<option value="Su">Sudeste</option>
+			<option value="C">Centro-oeste</option>
 		</select>
 	</h3>
 	
 	<h3>
+		Disciplina:
+		<input type="checkbox" name="java">Java
+		<input type="checkbox" name="python"">Python
+		<input type="checkbox" name= "js">JavaScript
+	</h3>
+	
+	<h3>
+	<button type="submit">Cadastrar</button>
+	</h3>
+  </form>
+</body>
+</html>
 		Disciplina:
 		<input type="checkbox name="java">Java
 		<input type="checkbox name="python"">Python
