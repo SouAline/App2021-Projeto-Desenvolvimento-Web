@@ -5,15 +5,43 @@
 <title>Insert title here</title>
 </head>
 <body>
-	Nome:
- 	<input type="text"> 
-	E-mail:
-	<input type="text"> 
-	Curso:
-	<input type="radio"> Graduação
-	<input type="radio"> Especialização
-	<input type="radio"> Mestrado
-	<input type="radio"> Doutorado
+	<form action="confirmaÃ§Ã£o.html">
+	<h3>
+		Nome: <input type="text" name="nome"> 
+ 	</h3>
 	
+	
+	<h3>
+		E-mail: <input type="text" name="email"> 
+	</h3>
+	
+	<h3>
+		Curso:
+		<input type="radio" name="curso"> GraduaÃ§Ã£o
+		<input type="radio" name="curso"> EspecializaÃ§Ã£o
+		<input type="radio" name="curso"> Mestrado
+		<input type="radio" name="curso"> Doutorado
+	</h3>
+	<h3>
+		<select  name="regiÃ£o">
+			<option>Norte</option>
+			<option>Nordeste</option>
+			<option>Sul</option>
+			<option>Sudeste</option>
+			<option>Centro-oeste</option>
+		</select>
+	</h3>
+	
+	<h3>
+		Disciplina:
+		<input type="checkbox name="java">Java
+		<input type="checkbox name="python"">Python
+		<input type="checkbox name= "js">JavaScript
+	</h3>
+	
+	<h3>
+	<button type="submit">Cadastrar</button>
+	</h3>
+  </form>
 </body>
 </html>
