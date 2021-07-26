@@ -2,46 +2,43 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>App2021 - Cadastra!!</title>
+<link rel="stylesheet" href="css/meuestilo.css">
 </head>
 <body>
-	<form action="confirmação.html" method="post">
-	<h3>
-		Nome: <input type="text" name="nome"> 
- 	</h3>
-	
-	
-	<h3>
-		E-mail: <input type="text" name="email"> 
-	</h3>
-	
-	<h3>
-		Curso:
+	<form action="confirmacao.html" method="get">
+	<h2 class="titulo">Cadastro de Aluno</h2>
+	<h3>Nome:</h3>
+		<input type="text" name="nome"> 
+ 	
+	<h3>E-mail:</h3> 
+	<input type="text" name="email"> 
+		
+	<h3>Curso:</h3>
 		<input type="radio" name="curso" value="G"> Graduação
 		<input type="radio" name="curso" value="E"> Especialização
 		<input type="radio" name="curso" value="M"> Mestrado
 		<input type="radio" name="curso" value="D"> Doutorado
-	</h3>
-	<h3>
-		<select  name="região">
+	
+		<h3>Região</h3>
+		<select name="região">
 			<option value="N">Norte</option>
 			<option value="No">Nordeste</option>
 			<option value="S">Sul</option>
 			<option value="Su">Sudeste</option>
 			<option value="C">Centro-oeste</option>
 		</select>
-	</h3>
 	
-	<h3>
-		Disciplina:
+	<h3>Disciplina:</h3>
 		<input type="checkbox" name="java">Java
 		<input type="checkbox" name="python"">Python
 		<input type="checkbox" name= "js">JavaScript
-	</h3>
-	
-	<h3>
+	<p>	
 	<button type="submit">Cadastrar</button>
-	</h3>
+	</p>
   </form>
 </body>
 </html>
+	
+	
+	
