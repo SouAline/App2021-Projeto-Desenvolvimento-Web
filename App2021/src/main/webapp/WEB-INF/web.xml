@@ -3,5 +3,6 @@
   <display-name>App2021</display-name>
   <welcome-file-list>
     <welcome-file>home.html</welcome-file>
+    <welcome-file>confirmacao.html</welcome-file>
     </welcome-file-list>
 </web-app>
